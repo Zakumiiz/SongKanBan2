@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    body {
+      background-image: url("photo/building.jpg");
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    form {
+      background-color: white;
+      padding: 30px;
+      width: 400px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: lightgray;
+      padding: 10px 10px;
+      color: rgb(70, 70, 172);
+      text-align: center;
+    }
+
+    .bg-color {
+      display: inline-block;
+      padding: 4px 5px 4px 5px;
+      background-color: lightblue;
+      margin: 5px 5px;
+    }
+
+    .text-color {
+      color: darkblue;
+    }
+
+    .ckb {
+      margin: 10px 5px;
+    }
+
+    .table {
+      background-color: #a9c2cc;
+      margin: 10px 120px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to Our Website</h1>
+  <form>
+    <label class="text-color" for="name">Name:</label>
+    <input class="bg-color text-color" type="text" placeholder="Enter your name"><br>
+    <label class="text-color" for="password">Password:</label>
+    <input class="bg-color text-color" type="password" placeholder="Enter your password"><br>
+    <label class="text-color" for="email">Email:</label>
+    <input class="bg-color text-color" type="email" placeholder="Enter your email"><br>
+    <label class="text-color" for="remember">Remember me</label>
+    <input class="ckb" type="checkbox" id="remember" name="remember"><br>
+    <input type="submit" value="Submit">
+    <table class="table" border="1">
+      <tr>
+        <th><a href="products.html">Products</a></th>
+        <th><a href="profile.html">Profile</a></th>
+        <th><a href="contact.html">Contact</a></th>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
